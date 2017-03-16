@@ -17,3 +17,5 @@ function initGoogleMap() {
 		zoom: 8
 	});
 }
+
+initGoogleMap();
