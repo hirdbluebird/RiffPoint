@@ -9,10 +9,10 @@ $(document).ready(function(){
 
 
 
-var map;
 
 function initGoogleMap() {
 
+	var map;
 	var styles = [
 	  {
 	    "elementType": "geometry",
