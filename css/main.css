@@ -1,5 +1,7 @@
 /*--- Reset.css ---*/
 * { margin:0; padding:0; box-sizing:border-box; }
+@font-face { font-family:'Montserrat'; src:url('../fonts/Montserrat/Montserrat-Reggular.ttf'); src:url('../fonts/Montserrat/Montserrat-Reggular.ttf');}
+* { font-family:'Montserrat'; }
 
 /*--- Global styles ---*/
 p,
@@ -60,8 +62,8 @@ nav ul li a:hover { color:#616161; text-decoration:underline; }
 .gallery-block__description-area { height:calc(100% - 100px); background-color:rgba(0,0,0,0.3); }
 .gallery-block__description-area i { padding: 10px; color:white; background-color:#ff6e40; border-radius:50%;}
 .gallery-block__description-text { height:100px; background-color:#f4f4f4; text-align:center; padding:30px 0px;}
-.gallery-block__description-text h4 { color:#ff6e40; text-transform:uppercase; margin-bottom:15px;}
-.gallery-block__description-text p { color:#808080; }
+.gallery-block__description-text-item { color:#ff6e40; text-transform:uppercase; margin-bottom:15px;}
+.gallery-block__description-text-category { color:#808080; }
 .gallery-block:hover .gallery-block__description { display: block; }
 
 /*--- Contacts section ---*/

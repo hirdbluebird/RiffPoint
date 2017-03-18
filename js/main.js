@@ -200,6 +200,12 @@ function initGoogleMap() {
 	  }]
 
 	var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
+	
+	var marker = new google.maps.Marker({
+	    position: {lat: 40.1416782, lng: -75.1926937},
+	    map: map,
+	    title: 'Fort Washington'
+	});
 
 	map = new google.maps.Map(document.getElementById('google-map'), {
 		center: {lat: 40.1416782, lng: -75.1926937},
@@ -210,11 +216,6 @@ function initGoogleMap() {
 	    scrollwheel: false
 	});
 
-	var marker = new google.maps.Marker({
-	    position: {lat: 40.1416782, lng: -75.1926937},
-	    map: map,
-	    title: 'Fort Washington'
-	});
 
 	map.mapTypes.set('map_style', styledMap);
   	map.setMapTypeId('map_style');
